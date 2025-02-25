@@ -62,10 +62,10 @@
 ## Скриншоты интерфейса 📸
 | Скриншот              | Описание            |
 |-----------------------|---------------------|
-| ![Teacher Menu](screenshots/teacher_menu.png) | Меню преподавателя |
-| ![Calendar](screenshots/calendar.png)         | Календарь слотов   |
-| ![Student Booking](screenshots/student_booking.png) | Запись ученика |
-| ![Notifications](screenshots/notifications.png) | Уведомления     |
+| <img src="screenshots/teacher_menu.png" alt="Teacher Menu" width="300"> | Меню преподавателя |
+| <img src="screenshots/calendar.png" alt="Calendar" width="300">         | Календарь слотов   |
+| <img src="screenshots/student_booking.png" alt="Student Booking" width="300"> | Запись ученика |
+| <img src="screenshots/notifications.png" alt="Notifications" width="300"> | Уведомления     |
 
 ## Основные команды
 | Команда       | Описание               |
