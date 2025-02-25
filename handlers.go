@@ -11,7 +11,7 @@ import (
 
 // Обработка команды /start
 func handleStart(msg *tgbotapi.Message) {
-	const teacherID = 5743780836 // Ваш Telegram ID
+	const teacherID = тут // Ваш Telegram ID
 
 	// Удаляем предыдущее сообщение бота, если оно есть
 	if lastID, exists := lastMessageID[msg.Chat.ID]; exists {
