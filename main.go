@@ -28,7 +28,7 @@ func main() {
 	}
 	defer db.Close()
 
-	botToken := "7214043617:AAFPgNgXmR1rtJxwHr3sJ8kCD7ftgiVv4sA"
+	botToken := "ВашТокенБота"
 	if botToken == "" {
 		panic("Токен бота не указан. Установите переменную окружения TELEGRAM_BOT_TOKEN")
 	}
