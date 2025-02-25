@@ -168,7 +168,7 @@ func getSlotsForDate(date time.Time) ([]Schedule, error) {
         WHERE teacher_id = ? 
         AND start_time BETWEEN ? AND ? 
         ORDER BY start_time`
-	rows, err := db.Query(query, 5743780836, startOfDay, endOfDay) // Замените на динамический teacherID, если нужно
+	rows, err := db.Query(query, teacherID, startOfDay, endOfDay)
 	if err != nil {
 		return nil, fmt.Errorf("ошибка запроса слотов: %v", err)
 	}
